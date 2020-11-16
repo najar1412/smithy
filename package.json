@@ -1,0 +1,35 @@
+{
+  "name": "smithy",
+  "version": "0.0.1",
+  "description": "blacksmithing web app",
+  "main": "index.js",
+  "dependencies": {
+    "babylonjs": "^4.2.0",
+    "npm": "^6.14.8"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "^4.2.0",
+    "@babylonjs/inspector": "^4.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.5",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --port 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/najar1412/smithy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/najar1412/smithy/issues"
+  },
+  "homepage": "https://github.com/najar1412/smithy#readme"
+}
